@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-model="className.name">
+        <h1>{{className.name}}</h1>
+        <h3>{{className.slogan}}</h3>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+        </ul>
+      </div>
+      <script src="./MvvM.js"></script>
+      <script>
+        let vm=new Vue({
+          el:'#app',
+          data:{
+            className:{
+              name:"1707班",
+              slogan:"书籍是进步的阶梯"
+            }
+          }
+        })
+      </script>
+</body>
+</html>

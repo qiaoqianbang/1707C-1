@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" v-model="className.kouh" />
+
+            <p>{{className.name}}</p>
+
+            <p>{{className.kouh}}</p>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+    <script>
+        // let box = document.getElementById('app');
+        // console.log(box.innerText, 'inner');
+        // console.log(box.textContent, 'text');
+        new Vue({
+            el: '#app',
+            data: {
+                className: {
+                    name: '1707A',
+                    kouh: '加油',
+                },
+            },
+        });
+    </script>
+</html>
