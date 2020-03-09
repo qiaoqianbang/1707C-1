@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body,#root,.app{
+    width: 100%;
+    height: 100%;
+}
+.Dashboard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .top{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background:#2F303B;
+        .ctop{
+            width: 150px;
+            height: 30px;
+            background:#000;
+            margin: 0 auto;
+            font-size: 12px;
+            margin-top: 10px;
+            border-radius: 15px;
+            a{
+                padding: 0 10px;
+                color: #fff;
+                line-height: 30px;
+            }
+        }
+    }
+    .center{
+        flex: 1;
+        background: #000;
+        display: flex;
+        .left{
+            width:260px;
+            height: 100%;
+            .start{
+                width: 90%;
+                height: 50%;
+                margin: 15px auto;
+                border-radius: 10px;
+                background: #2F303B;
+                color: #fff;
+                font-size: 20px;
+                line-height: 300px;
+                text-align: center;
+            }
+            .times{
+                width: 90%;
+                height: 40%;
+                margin: 15px auto;
+                border-radius: 10px;
+                background: #2F303B;
+            }
+        }
+        .right{
+            flex: 1;
+            .c{
+                width: 95%;
+                height: 95%;
+                margin: 15px auto;
+                border-radius: 10px;
+                background: #2F303B;
+            }
+        }
+    }
+}
+.SubAccount{
+    color: #fff;
+}
+.active{
+    background: #2F303B;
+    border: 1px solid #2F303B;
+    border-radius: 15px;
+}
