@@ -1,0 +1,31 @@
+[
+    {   
+        "name":"橘子",
+        "price":10,
+        "count":0
+
+    },
+    {
+        "name":"苹果",
+        "price":20,
+        "count":0     
+    },
+    {
+        "name":"香蕉",
+        "price":30,
+        "count":0
+
+    },
+    {
+        "name":"梨子",
+        "price":40,
+        "count":0
+ 
+    },
+    {
+        "name":"车厘子",
+        "price":50,
+        "count":0
+
+    }
+]
