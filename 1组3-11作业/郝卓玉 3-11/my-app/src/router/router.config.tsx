@@ -1,0 +1,40 @@
+import getView from '../pages/index'
+
+export default [{
+    path:'/login',
+    component:getView('Login'),
+    title:'登录'
+},{
+    path:'/',
+    redirect:'/home/index'
+},{
+    path:'/home',
+    component:getView('Home'),
+    title:'首页',
+    children:[{
+        path:'/home/index',
+        title:'首页',
+        component:getView('Home/Index')
+    },{
+        path:'/home/my',
+        title:'我的',
+        component:getView('Home/My')
+    }]
+}
+,{
+    path:'/ChangePassword',
+    component:getView('ChangePassword'),
+    title:'改变密码'
+},{
+    path:'/CreateVote',
+    component:getView('CreateVote'),
+    title:'创建投票'
+},{
+    path:'/registry',
+    component:getView('Registry'),
+    title:'注册'
+},{
+    path:'/voteList',
+    component:getView('VoteList'),
+    title:'投票列表'
+}]
