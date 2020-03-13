@@ -1,0 +1,10 @@
+button{
+    border: none;
+    outline: none;
+    background: #ccc;
+    margin: 5px;
+}
+.title .active{
+    background: #555;
+    color: #fff;
+}

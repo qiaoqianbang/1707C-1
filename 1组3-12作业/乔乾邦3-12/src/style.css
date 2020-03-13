@@ -1,0 +1,46 @@
+body,
+html,
+#root,
+.App {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Index,
+.home {
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1px;
+}
+
+.foot {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: rgb(250, 117, 76);
+    display: flex;
+}
+
+.foot span {
+    flex: 1;
+    cursor: pointer;
+}
+
+.active {
+    text-decoration: line-through;
+}
+
+li {
+    list-style: none;
+}
