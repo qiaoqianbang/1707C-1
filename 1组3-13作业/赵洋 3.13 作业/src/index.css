@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html,body,#root{
+  width: 100%;
+  height: 100%;
+}
+.logins{
+   width: 100%;
+  height: 100%;
+}
+.log-top{
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  line-height: 44px;
+}
+.login-ipt{
+  margin: 20px;
+}
+.login-btn button{
+ margin:0 150px;
+}
+.sigert{
+  width: 100%;
+  height: 100%;
+}
+.sigert-top{
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  line-height: 44px;
+}
+.ipts-ze{
+  margin: 20px;
+}
+.ipts-bts{
+  margin: 0 150px;
+}
+.big{
+  width: 100%;
+  height: 100%; 
+}
+.wrap{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  width: 100%;
+  height: 44px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  line-height: 44px;
+}
+main{
+  flex: 1;
+  overflow: auto;
+}
+footer{
+  width: 100%;
+  height: 44px;
+  border-top: 1px solid #000;
+  
+}
+footer div a{
+  line-height: 44px;
+  margin: 45px;
+}
+.active{
+  color: red;
+  /* background: #999; */
+}
+.home-one{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.home-lok{
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px solid #000;
+  display: flex;
+}
+.lefts{
+  width: 150px;
+  height: 100%;
+}
+.lefts img{
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+}
+.rights{
+  flex: 1;
+}
